@@ -67,28 +67,11 @@ nav ul a:hover {
     margin-right: 100px;
 }
 
-/*  */
+/* Descriptions */
 .Hero-Description {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.Image-Container {
-    position: relative;
-    width: 100%;
-    min-height: 400px;
-}
-.Design-Img-1 {
-    position: absolute;
-    right: 20px;
-}
-
-.Design-Img-2 {
-    position: absolute;
-    top: 0;
-    right: 1px;
-    z-index: 10;
 }
 
 .Info {
@@ -135,6 +118,35 @@ nav ul a:hover {
 
 }
 
+/* Images-background-design */
+.Image-Container {
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+}
+.Design-Img-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 640px;
+    
+}   
+
+.Design-Img-2 {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    z-index: 10;
+    height: 640px;
+}
+
+.Design-Img-4 {
+    position: relative;
+    bottom: 30px;
+    left: 60px;
+    z-index: 15;
+}
+
 .Hero {
     position: relative;
     width: 100%;
@@ -142,7 +154,7 @@ nav ul a:hover {
 
 .Design-Img-3 {
     position: absolute;
-    height: 1000px;
+    height: 675px;
     left: 70px;
     z-index: 0;
 }
